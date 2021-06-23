@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.ivydad.module.singlelineflow.SingleLineFlow
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:background="@color/colorAccent">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1    "
+               android:lines="1"
+               android:ellipsize="end"
+               android:gravity="center"/>
+
+
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1    "
+               android:lines="1"
+               android:ellipsize="end"/>
+
+
+
+
+       </LinearLayout>
+    </com.ivydad.module.singlelineflow.SingleLineFlow>
+
+
+</FrameLayout>
